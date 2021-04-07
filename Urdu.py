@@ -5,10 +5,19 @@ messagebox.showerror(
 
 # Urdu Class But Not Have Link
 
-# import ClassStart
+# from datetime import datetime
+
 # import classlinks
+# import ClassStart
 
+# now = datetime.now()
 
-# link = classlinks.links["Urdu"]
-# Urdu = ClassStart.classstart()
-# Urdu.join(link)
+# currentdate = now.strftime("%A")
+
+# if currentdate == "Monday" or "Tuesday" or "Wednesday" or "Thursday" or "Friday":
+#     link = classlinks.links["Urdu"]
+#     Urdu = ClassStart.classstart()
+#     Urdu.join(link)
+# else:
+#     quit()
+#     exit()

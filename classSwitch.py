@@ -20,4 +20,5 @@ elif currentdate == "Thursday" or "Friday":
     english.join(link)
 
 else:
-    print("Did not got wanted date")
+    quit()
+    exit()

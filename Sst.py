@@ -1,6 +1,16 @@
+from datetime import datetime
+
 import ClassStart
 import classlinks
 
-link = classlinks.links["Sst"]
-Sst = ClassStart.classstart()
-Sst.join(link)
+now = datetime.now()
+
+currentdate = now.strftime("%A")
+
+if currentdate == "Monday" or "Tuesday" or "Wednesday" or "Thursday" or "Friday":
+    link = classlinks.links["Sst"]
+    Sst = ClassStart.classstart()
+    Sst.join(link)
+else:
+    quit()
+    exit()
