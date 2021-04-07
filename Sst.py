@@ -2,5 +2,5 @@ import ClassStart
 import classlinks
 
 link = classlinks.links["Sst"]
-english = ClassStart.classstart()
-english.join(link)
+Sst = ClassStart.classstart()
+Sst.join(link)

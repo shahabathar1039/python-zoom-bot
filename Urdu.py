@@ -1,6 +1,7 @@
 from tkinter import messagebox
 
-messagebox.showerror("Urdu Link 404", "Copy Urdu Link")
+messagebox.showerror(
+    "Urdu Link 404", "Copy Urdu Link\nThe Link Was Not Provided To The Zoom Metting")
 
 # Urdu Class But Not Have Link
 
@@ -9,5 +10,5 @@ messagebox.showerror("Urdu Link 404", "Copy Urdu Link")
 
 
 # link = classlinks.links["Urdu"]
-# english = ClassStart.classstart()
-# english.join(link)
+# Urdu = ClassStart.classstart()
+# Urdu.join(link)
