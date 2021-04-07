@@ -1,4 +1,6 @@
-import tkinter
+from tkinter import messagebox
+
+messagebox.showerror("Urdu Link 404", "Copy Urdu Link")
 
 # Urdu Class But Not Have Link
 
